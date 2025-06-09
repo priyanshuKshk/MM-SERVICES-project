@@ -5,30 +5,30 @@ const marbleItems = [
   {
     id: 1,
     name: "Italian White Marble",
-    image: "/images/italian-white.jpg", // place image in public/images/
+    image: "/images/italian-white-marbles.jpg", // place image in public/images/
     description: "Premium quality Italian marble with glossy finish.",
-    price: "₹350/sq.ft"
+  
   },
   {
     id: 2,
     name: "Makrana Marble",
-    image: "/images/makrana.jpg",
+    image: "/images/Makrana-White-Marble.jpg",
     description: "Traditional Makrana marble, highly durable and elegant.",
-    price: "₹220/sq.ft"
+  
   },
   {
     id: 3,
     name: "Black Marquina",
     image: "/images/black-marquina.jpg",
     description: "Black marble with striking white veins – perfect for flooring.",
-    price: "₹400/sq.ft"
+  
   },
   {
     id: 4,
     name: "Golden Spider",
     image: "/images/golden-spider.jpg",
     description: "Eye-catching golden veined marble – a luxury choice.",
-    price: "₹480/sq.ft"
+  
   }
 ];
 
@@ -52,8 +52,8 @@ export default function GalleryPage() {
             />
             <div className="p-4 space-y-2">
               <h2 className="text-xl font-semibold text-red-700">{item.name}</h2>
-              <p className="text-sm text-gray-800">{item.description}</p>
-              <p className="text-lg font-bold text-red-600">{item.price}</p>
+              <p className="text-gray-700">{item.description}</p>
+          
             </div>
           </div>
         ))}

@@ -8,20 +8,20 @@ const featuredMarbles = [
   {
     id: 1,
     name: "Italian White Marble",
-    image: "/images/italian-white.jpg",
-    price: "₹350/sq.ft"
+    image: "/images/italian-white-marbles.jpg",
+    
   },
   {
     id: 2,
     name: "Makrana Marble",
-    image: "/images/makrana.jpg",
-    price: "₹220/sq.ft"
+    image: "/images/Makrana-White-Marble.jpg",
+    
   },
   {
     id: 3,
     name: "Black Marquina",
     image: "/images/black-marquina.jpg",
-    price: "₹400/sq.ft"
+  
   }
 ];
 
@@ -83,7 +83,7 @@ export default function HomePage() {
           Featured Marbles
         </h2>
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
-          {featuredMarbles.map(({ id, name, image, price }) => (
+          {featuredMarbles.map(({ id, name, image }) => (
             <div
               key={id}
               className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 bg-red-50"
@@ -95,7 +95,7 @@ export default function HomePage() {
               />
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-red-700 mb-1">{name}</h3>
-                <p className="text-red-600 font-bold">{price}</p>
+                
               </div>
             </div>
           ))}

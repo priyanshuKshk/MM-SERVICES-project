@@ -7,8 +7,9 @@ const Footer = () => {
       style={{  color:'white',backgroundColor: '#b30000', }}>
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center border-t border-red-300 pt-6">
         {/* Left Side: Brand Info */}
-        <div className="text-center md:text-left mb-4 md:mb-0">
-          <h2 className="text-2xl font-bold tracking-wide">MM marbles</h2>
+        <div className="text-center md:text-left mb-4 md:mb-0"
+        >
+          <h2 className="text-2xl font-bold tracking-wide">Mittal Marbles</h2>
           <p className="text-sm text-red-100">© {new Date().getFullYear()} All Rights Reserved</p>
         </div>
 

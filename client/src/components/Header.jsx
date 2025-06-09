@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header className="text-[oklch(57.7%_0.245_27.325)] shadow-md p-4 flex justify-between items-center relative">
-      <Link to="/" className="hover:underline" style={{fontSize:'2rem', fontWeight:'1000'}}>  MM Marbles
+      <Link to="/" className="hover:underline" style={{fontSize:'2rem', fontWeight:'1000'}}>  Mittal Marbles
 </Link>
       {/* Desktop Menu */}
       <nav className="hidden md:flex space-x-4">
